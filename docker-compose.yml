@@ -1,0 +1,8 @@
+version: '3.4'
+
+services:
+  cxblogs:
+    image: ${DOCKER_REGISTRY}cxblogs
+    build:
+      context: .
+      dockerfile: CxBlogs/Dockerfile
